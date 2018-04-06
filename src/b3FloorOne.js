@@ -1,7 +1,7 @@
 import React from 'react';
 //import ReactDOM from 'react-dom';
 
-class FloorOne extends React.Component {
+export default class FloorOne extends React.Component {
     constructor(props) {
       super(props);
       this.onClick = this.onClick.bind(this);
@@ -23,10 +23,9 @@ class FloorOne extends React.Component {
     render() {
       return (
       <div className="game">
-      <div id="info-box"></div>
         <svg className = "buliding3"
         xmlns="http://www.w3.org/2000/svg"
-        id="us-map"
+        id="map"
         preserveAspectRatio="xMinYMin meet"
         version="1.1"
         viewBox="0 0 643.80249 182.10458"
@@ -320,5 +319,3 @@ class FloorOne extends React.Component {
     }
   }
 
-
-  export default FloorOne;
